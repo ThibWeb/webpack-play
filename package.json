@@ -32,7 +32,7 @@
   "scripts": {
     "start": "webpack-dev-server --hot --inline",
     "build": "webpack",
-    "test": "eslint src/js && jscs src/js",
-    "lint": "eslint src/js && jscs src/js"
+    "test": "eslint . && jscs .",
+    "lint": "eslint . && jscs ."
   }
 }
