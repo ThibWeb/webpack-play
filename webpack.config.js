@@ -8,7 +8,7 @@ module.exports = {
         loaders: [
             {
                 test: /\.css$/,
-                loader: 'style-loader!css-loader'
+                loader: 'style-loader!css-loader!postcss-loader'
             },
             {
                 test: /\.js$/,
@@ -17,6 +17,11 @@ module.exports = {
             }
         ]
     },
+
+    postcss: [
+        require('autoprefixer-core'),
+        require('csswring')
+    ],
 
     // One of the slowest but allows debugger to work.
     // See https://webpack.github.io/docs/configuration.html#devtool
