@@ -19,6 +19,8 @@ module.exports = {
     },
 
     postcss: [
+        require('postcss-simple-vars'),
+        require('postcss-nested'),
         require('autoprefixer-core'),
         require('csswring')
     ],

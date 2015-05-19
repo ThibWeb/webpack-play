@@ -29,6 +29,8 @@
     "jscs": "^1.13.1",
     "node-libs-browser": "^0.5.0",
     "postcss-loader": "^0.4.3",
+    "postcss-nested": "^0.3.1",
+    "postcss-simple-vars": "^0.3.0",
     "style-loader": "^0.12.2",
     "webpack": "^1.9.4",
     "webpack-dev-server": "^1.8.2"
