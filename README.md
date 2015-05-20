@@ -11,7 +11,7 @@ From the command-line:
 ```sh
 cd ~/Development/sites/
 git clone git@github.com:ThibWeb/unidentified.git
-cd tekautoday
+cd unidentified
 ```
 
 Our main dependencies are:
