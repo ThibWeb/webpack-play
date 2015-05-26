@@ -1,0 +1,11 @@
+language: node_js
+node_js:
+    - 0.12
+branches:
+    except:
+      - deploy
+install:
+  - npm install --global eslint jscs babel-eslint esprima-fb eslint-plugin-react
+  - npm install
+script:
+    - npm test
