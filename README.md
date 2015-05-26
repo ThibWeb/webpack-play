@@ -1,4 +1,4 @@
-unidentified
+unidentified [![Travis](https://img.shields.io/travis/ThibWeb/unidentified.svg?style=flat-square)](https://travis-ci.org/ThibWeb/unidentified)
 ==========
 
 > TODO
