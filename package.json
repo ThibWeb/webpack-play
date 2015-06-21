@@ -32,13 +32,14 @@
     "postcss-nested": "^0.3.1",
     "postcss-simple-vars": "^0.3.0",
     "react": "^0.13.3",
+    "react-hot-loader": "^1.2.7",
     "style-loader": "^0.12.2",
     "webpack": "^1.9.4",
     "webpack-dev-server": "^1.8.2"
   },
   "dependencies": {},
   "scripts": {
-    "start": "webpack-dev-server --hot --inline",
+    "start": "node server.js",
     "build": "webpack",
     "test": "eslint . && jscs .",
     "lint": "eslint . && jscs ."

@@ -1,21 +1,33 @@
 'use strict';
 
+var path = require('path');
+var webpack = require('webpack');
+
 module.exports = {
-    entry: './src/js/entry.js',
+    entry: [
+        'webpack-dev-server/client?http://localhost:3000',
+        'webpack/hot/only-dev-server',
+        './src/js/entry'
+    ],
     output: {
-        path: __dirname + '/src/',
-        filename: 'bundle.js'
+        path: path.join(__dirname, '/src/'),
+        filename: 'bundle.js',
+        publicPath: '/src/'
     },
+    plugins: [
+      new webpack.HotModuleReplacementPlugin(),
+      new webpack.NoErrorsPlugin()
+    ],
     module: {
         loaders: [
             {
                 test: /\.css$/,
-                loader: 'style-loader!css-loader!postcss-loader'
+                loaders: ['style-loader', 'css-loader', 'postcss-loader']
             },
             {
                 test: /\.js$/,
                 exclude: /node_modules/,
-                loader: 'babel-loader'
+                loaders: ['react-hot', 'babel-loader']
             }
         ]
     },
