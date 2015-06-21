@@ -1,20 +1,20 @@
 {
-  "name": "unidentified",
+  "name": "webpack-play",
   "version": "0.1.0",
   "description": "",
   "main": "index.js",
   "author": "ThibWeb",
   "license": "ISC",
-  "homepage": "https://github.com/ThibWeb/unidentified",
+  "homepage": "https://github.com/ThibWeb/webpack-play",
   "repository": {
     "type": "git",
-    "url": "git@github.com:ThibWeb/unidentified.git"
+    "url": "git@github.com:ThibWeb/webpack-play.git"
   },
   "bugs": {
-    "url": "https://github.com/ThibWeb/unidentified/issues"
+    "url": "https://github.com/ThibWeb/webpack-play/issues"
   },
   "keywords": [
-    "unidentified"
+    "webpack-play"
   ],
   "devDependencies": {
     "autoprefixer-core": "^5.1.11",

@@ -1,4 +1,4 @@
-unidentified [![Travis](https://img.shields.io/travis/ThibWeb/unidentified.svg?style=flat-square)](https://travis-ci.org/ThibWeb/unidentified)
+webpack-play [![Travis](https://img.shields.io/travis/ThibWeb/webpack-play.svg?style=flat-square)](https://travis-ci.org/ThibWeb/webpack-play)
 ==========
 
 > TODO
@@ -10,8 +10,8 @@ From the command-line:
 
 ```sh
 cd ~/Development/sites/
-git clone git@github.com:ThibWeb/unidentified.git
-cd unidentified
+git clone git@github.com:ThibWeb/webpack-play.git
+cd webpack-play
 ```
 
 Our main dependencies are:
@@ -29,7 +29,7 @@ npm install --global eslint jscs babel-eslint esprima-fb eslint-plugin-react
 # Then, install all project dependencies.
 npm install
 # If that's your thing, install the git hooks:
-./hook/deploy
+./.githooks/deploy
 ```
 
 ## Working on the project
