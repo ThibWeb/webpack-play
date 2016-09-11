@@ -3,15 +3,15 @@
   "version": "0.1.0",
   "description": "",
   "main": "index.js",
-  "author": "ThibWeb",
+  "author": "thibaudcolas",
   "license": "ISC",
-  "homepage": "https://github.com/ThibWeb/webpack-play",
+  "homepage": "https://github.com/thibaudcolas/webpack-play",
   "repository": {
     "type": "git",
-    "url": "git@github.com:ThibWeb/webpack-play.git"
+    "url": "git@github.com:thibaudcolas/webpack-play.git"
   },
   "bugs": {
-    "url": "https://github.com/ThibWeb/webpack-play/issues"
+    "url": "https://github.com/thibaudcolas/webpack-play/issues"
   },
   "keywords": [
     "webpack-play"

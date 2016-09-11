@@ -1,4 +1,4 @@
-webpack-play [![Travis](https://img.shields.io/travis/ThibWeb/webpack-play.svg?style=flat-square)](https://travis-ci.org/ThibWeb/webpack-play)
+webpack-play [![Travis](https://img.shields.io/travis/thibaudcolas/webpack-play.svg?style=flat-square)](https://travis-ci.org/thibaudcolas/webpack-play)
 ==========
 
 > TODO
@@ -10,7 +10,7 @@ From the command-line:
 
 ```sh
 cd ~/Development/sites/
-git clone git@github.com:ThibWeb/webpack-play.git
+git clone git@github.com:thibaudcolas/webpack-play.git
 cd webpack-play
 ```
 
